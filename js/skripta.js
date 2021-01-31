@@ -11,11 +11,10 @@ var HEIGHT;
 var r=10;
 var ctx;
 var tocke;
-var bounce = new Audio("../sfx/bounce.wav");
-var win = new Audio("../sfx/win.wav");
+var bounce = new Audio("sfx/bounce.wav");
 
 var oblak = new Image();
-oblak.src = "../img/tile1.png";
+oblak.src = "img/tile1.png";
 disableIgrajButton();
 
 
